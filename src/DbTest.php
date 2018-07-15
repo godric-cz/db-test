@@ -2,8 +2,6 @@
 
 namespace Godric\DbTest;
 
-foreach (glob(__DIR__ . '/*.php') as $f) require_once $f; // TODO
-
 class DbTest extends \PHPUnit\Framework\TestCase {
 
     private static $connection;
